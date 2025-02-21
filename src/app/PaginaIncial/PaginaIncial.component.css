@@ -1,0 +1,55 @@
+.home_top{
+  background-color:rgba(107, 14, 14, 0.986);
+  height: 95%;
+  width: 100%;
+  padding: 10px;
+  width: 100%;
+  
+}
+.pessoa ,.pessoa2, .pessoa3{
+  margin-top: 30px;
+  width:200px ;
+  height: 300px;
+  border-radius: 30px;
+  float: right;
+  margin-right: 20px;
+}
+.pessoa2{
+  height: 200px;
+  width: 140px;
+  margin-right: 15px;
+  margin-top: 300px;
+}
+
+.pessoa3{
+  height: 200px;
+  width: 200px;
+  margin-right: -80px;
+  margin-top: 70px;
+}
+
+.title, .descricao{
+  position: absolute;
+  display: inline-block;
+  margin-left: 60px;
+  width: 800px;
+  
+}
+.descricao{
+  margin-top: 250px;
+}
+header{
+  text-align: start;
+}
+article{
+  font-size: 25px;
+}
+.logo{
+  margin-top: 50px;
+  float: right;
+  margin-right: -10px;
+}
+.valores{
+  text-align: center;
+  padding: 100px 40px 50px;
+}

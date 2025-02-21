@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: black;
+    font-family: "inter", sans-serif ;
+    color: white; 
+    overflow-x: hidden;
+ 
+}
+h1{
+    font-size: 60px;
+}
+button{
+    margin: 60px;
+    margin-top: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:black;
+    color: white;
+    border: none;
+}
+nav{
+    background-color:rgba(107, 14, 14, 0.562);
+    width: 100%;
+    padding: 30px 10px;
+    height: 30px;
+    margin-top:-8px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    
+}
+.logo_nav{
+    margin-top: -15px;
+    margin-left: 20px;
+    height: 40px;
+    width: 60px;
+    padding-right: 20px;
+}
+div{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.items_menu{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.items_menu:hover{
+    border-width: thin;
+    border-bottom: 4px solid rgba(255, 0, 0, 0.644);
+    text-decoration: solid;
+}
