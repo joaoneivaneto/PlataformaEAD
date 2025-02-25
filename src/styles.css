@@ -76,10 +76,9 @@ footer{
 .fa-brands{
     color: #B197FC; 
     font-size: 115px;
-    padding-left: 50px;
-    
+    padding-left: 50px;   
 }
-.dividir{
+.divisor{
     height: 85px;
     border: 1px solid white;
     margin-left: 150px;

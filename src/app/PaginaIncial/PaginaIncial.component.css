@@ -96,4 +96,7 @@ ol>article{
   margin-left: 650px;
   margin-top: 150px;
 }
-
+.divisor{ 
+  height: 100px;
+  border: 1px solid white;
+}
