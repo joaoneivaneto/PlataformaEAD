@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PaginaIncialComponent } from './PaginaIncial/PaginaIncial.component';
+import { CadastrarComponent } from './Cadastrar/Cadastrar.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      PaginaIncialComponent
+      PaginaIncialComponent,
+      CadastrarComponent
    ],
   imports: [
     BrowserModule,
