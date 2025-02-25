@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 html{
-    background-color: black;
+    background-color:#050111;
     font-family: "inter", sans-serif ;
     color: white; 
     overflow-x: hidden;
@@ -31,10 +31,10 @@ nav{
     height: 30px;
     margin-top:-8px;
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+   
     
 }
-.logo_nav{
+.logo_menu{
     margin-top: -15px;
     margin-left: 20px;
     height: 40px;
@@ -55,4 +55,33 @@ div{
     border-width: thin;
     border-bottom: 4px solid rgba(255, 0, 0, 0.644);
     text-decoration: solid;
+}
+.direitos_autorais{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo_nav{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100px;
+    width: 120px;
+    padding-right: 20px;
+}
+footer{
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    margin-top: 600px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.fa-brands{
+    color: #B197FC; 
+    font-size: 115px;
+    padding-left: 50px;
+    
+}
+.dividir{
+    height: 85px;
+    border: 1px solid white;
+    margin-left: 150px;
+    margin-top: -100px;
 }

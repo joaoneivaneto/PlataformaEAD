@@ -1,10 +1,15 @@
 .home_top{
   background-color:rgba(107, 14, 14, 0.986);
-  height: 95%;
+  height: 100%;
   width: 100%;
   padding: 10px;
-  width: 100%;
   
+}
+button{
+  margin-top: 450px;
+}
+.fa-solid{
+   margin-left: 3px;
 }
 .pessoa ,.pessoa2, .pessoa3{
   margin-top: 30px;
@@ -35,8 +40,11 @@
   width: 800px;
   
 }
+.title{
+  margin-top: 50px;
+}
 .descricao{
-  margin-top: 250px;
+  margin-top: 320px;
 }
 header{
   text-align: start;
@@ -49,7 +57,43 @@ article{
   float: right;
   margin-right: -10px;
 }
-.valores{
+.principios header{
+  padding-top: 100px;
   text-align: center;
-  padding: 100px 40px 50px;
 }
+
+h3{
+  padding:  50px 100px;
+}
+.valores,.missao{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.valores{
+  width: 50%;
+  float: left;
+}
+.missao{
+  width: 50%;
+  float: right;
+}
+ol{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+ol>li, ol>article{
+  padding-bottom: 20px;
+}
+ol>article{
+  text-align: start;
+  font-size: 20px;
+}
+.principios .separar{
+  position: absolute;
+  
+  height: 350px;
+  border: 1px solid white;
+  margin-left: 650px;
+  margin-top: 150px;
+}
+
