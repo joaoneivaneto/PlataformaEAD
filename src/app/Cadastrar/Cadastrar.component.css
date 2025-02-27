@@ -1,0 +1,53 @@
+main{
+   padding-bottom: 30px;
+ 
+}
+h1{
+    position: absolute;
+    margin-left: 200px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+img,section{
+    margin-top: 5p;
+    height:35rem;
+    width: 60%;
+}
+img{
+    margin-left: 540px;
+}
+section{
+    position: absolute;
+}
+form{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+label{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+input{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    fill: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    color: white;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 2px solid rgb(6, 6, 59);
+
+} 
+input:focus ~ label, input:valid ~ label {
+    margin-top: -10px;
+
+} 

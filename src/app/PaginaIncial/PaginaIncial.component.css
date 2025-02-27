@@ -21,7 +21,7 @@
 .fa-solid{
    margin-left: 3px;
 }
-.pessoa ,.pessoa2, .pessoa3{
+.imagem_homem ,.colaborador_escada, .executivos{
   margin-top: -150px;
   width:200px ;
   height: 300px;
@@ -29,14 +29,14 @@
   float: right;
   margin-right: 20px;
 }
-.pessoa2{
+.colaborador_escada{
   height: 200px;
   width: 140px;
   margin-right: 15px;
   margin-top: 10px;
 }
 
-.pessoa3{
+.executivos{
   height: 200px;
   width: 200px;
   margin-right: -80px;
@@ -97,13 +97,15 @@ ol>article{
   text-align: start;
   font-size: 20px;
 }
+.principios{
+ padding-bottom: 600px;
+}
 .principios .separar{
-  position: absolute;
-  
   height: 350px;
   border: 1px solid white;
   margin-left: 650px;
   margin-top: 150px;
+  margin-bottom: 400px;
 }
 .divisor{ 
   height: 100px;
