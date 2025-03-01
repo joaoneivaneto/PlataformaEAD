@@ -4,50 +4,79 @@ main{
 }
 h1{
     position: absolute;
-    margin-left: 200px;
-    padding-top: 10px;
+    margin-left: 150px;
+    padding-top: 300px;
     font-size: 40px;
 }
+h2{
+  position: absolute;
+  left: 18%;
+  top:-10%;
+  padding: 20px;
+}
 img,section{
-    margin-top: 5p;
+    margin-top: -279px;
     height:35rem;
     width: 60%;
 }
 img{
     margin-left: 540px;
+
 }
-section{
+.login-box {
     position: absolute;
-}
-form{
-    margin-top: 100px;
-    margin-left: 20px;
-}
-label{
+    top: 40%;
+    left: -16%;
+    width: 655px;
+    padding: 40px;
+    
+  }
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input, select {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 45px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+ 
+.login-box .user-box label{
     position: absolute;
-    margin-left: 20px;
-    margin-top: 10px;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
     
 }
-input{
-    display: flex;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    width: 60%;
-    fill: none;
-    border: none;
-    background: transparent;
-    border-bottom: 2px solid #ccc;
-    color: white;
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
-textarea:focus, input:focus, select:focus {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    border-bottom: 2px solid rgb(6, 6, 59);
 
-} 
-input:focus ~ label, input:valid ~ label {
-    margin-top: -10px;
-
-} 
+.login-box .user-box input:focus  ~ label,
+.login-box .user-box input:valid  ~ label{
+    top: -25px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+button{
+  position: absolute;
+  margin-top: -30px;
+  left: 480px;
+}
