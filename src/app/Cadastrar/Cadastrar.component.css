@@ -10,9 +10,8 @@ h1{
 }
 h2{
   position: absolute;
-  left: 18%;
-  top:-10%;
-  padding: 20px;
+  left: 21%;
+  top:-15%;
 }
 img,section{
     margin-top: -279px;
@@ -35,7 +34,7 @@ img{
     position: relative;
   }
   
-  .login-box .user-box input, select {
+  .login-box .user-box input{
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -70,13 +69,21 @@ input[type=number] {
 
 .login-box .user-box input:focus  ~ label,
 .login-box .user-box input:valid  ~ label{
-    top: -25px;
+    top: -20px;
     left: 0;
     color: #03e9f4;
     font-size: 12px;
 }
-button{
+button,a{
   position: absolute;
-  margin-top: -30px;
-  left: 480px;
+  margin-top: -10px;
+  left: 500px;
+  float: right;
 }
+.title_dados_bancarios{
+  margin-top: 120px;
+}
+.dados_bancarios{
+  top: 50px;
+}
+

@@ -14,7 +14,7 @@ html{
 h1{
     font-size: 60px;
 }
-button{
+button,a:not(footer a, nav a){
     margin: 60px;
     margin-top: 600px;
     height: 50px;
@@ -24,6 +24,12 @@ button{
     color: white;
     border: none;
 }
+a:not(footer a, nav a){
+    padding-top: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 nav{
     background-color:rgba(107, 14, 14, 0.562);
     width: 100%;

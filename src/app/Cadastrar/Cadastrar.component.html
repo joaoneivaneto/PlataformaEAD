@@ -1,4 +1,3 @@
-
 <main>
   <header>
     <h1>Cadastre-se</h1>
@@ -6,28 +5,27 @@
   <section>
     <div class="login-box">
       <form>
-        <h2>Dados pessois</h2>
-        <div class="user-box">
-          <input type="text" name="nome" class="dados_pessoais" required>
+        <h2 class="title_dados_pessoais">Dados pessoais</h2>
+        <div class="user-box dados_pessoais">
+          <input type="text" name="nome"  required>
           <label>Nome</label>
         </div>
-        <div class="user-box">
-          <input type="text" name="sobrenome" class="dados_pessoais" required>
+        <div class="user-box dados_pessoais">
+          <input type="text" name="sobrenome"  required>
           <label>Sobrenome</label>
         </div>
-        <div class="user-box">
-          <input type="text" name="cpf" class="dados_pessoais" required>
+        <div class="user-box dados_pessoais">
+          <input type="text" name="cpf"  required>
           <label>CPF</label>
         </div>
-        <div class="user-box">
-          <input type="tel" name="tel" class="dados_pessoais" required>
+        <div class="user-box dados_pessoais">
+          <input type="tel" name="tel"  required>
           <label>Telefone</label>
         </div>
-        <div class="user-box">
+        <div class="user-box dados_pessoais">
           
-          <input list="sexo" name="sexo" id="browser" >
+          <input list="sexo" name="sexo" id="browser" required>
           <datalist id="sexo">
-            <option value="---">
             <option value="Masculino">
             <option value="Feminino">
             <option value="Transexual">
@@ -36,42 +34,86 @@
           </datalist>
           <label>Escolha o seu sexo</label>
         </div>
-        <div class="user-box">
-          <input type="text" name="data_nasc" class="dados_pessoais" required>
+        <div class="user-box dados_pessoais">
+          <input type="text" name="data_nasc"  required>
           <label>Data De Nascimento</label>
         </div>
-       
+
+        <div class="user-box dados_pessoais_part2">
+          <input type="email" name="email"  required>
+          <label>E-mail</label>
+        </div>
+
+        <div class="user-box dados_pessoais_part2">
+          <input type="password" name="senha"  required>
+          <label>Senha</label>
+        </div>
+
+        <div class="user-box dados_pessoais_part2">
+          <input type="password" name="Senha_conf"  required>
+          <label>Confirmar Senha</label>
+        </div>
+        <h2 class="title_endereco">Endereço</h2>
+      
+        <div class="user-box endereco">
+          <input type="text" name="cep" class="cep" required>
+          <label>CEP</label>
+        </div>
+
+        <div class="user-box endereco">
+          <input type="text" name="rua" required>
+          <label>Cidade</label>
+        </div>
+
+        <div class="user-box endereco">
+          <input type="text" name="rua" required>
+          <label>Estado</label>
+        </div>
+
+        <div class="user-box endereco">
+          <input type="text" name="rua" required>
+          <label>Bairro</label>
+        </div>
+
+        <div class="user-box endereco">
+          <input type="text" name="rua" required>
+          <label>Rua</label>
+        </div>
+
+        <div class="user-box endereco">
+          <input type="number" name="rua" required>
+          <label>Número</label>
+        </div>
+
+        <div class="user-box endereco_part2">
+          <input type="text" name="rua" required>
+          <label>Complemento</label>
+        </div>
         
-        <button>proximo</button>
+        <h2 class="title_dados_bancarios">Dados Bancários</h2>
+        
+        <div class="user-box dados_bancarios">
+          <input type="text" name="rua" required>
+          <label>Titular</label>
+        </div>
+        <div class="user-box dados_bancarios">
+          <input type="text" name="rua" required>
+          <label>número do cartão</label>
+        </div>
+        <div class="user-box dados_bancarios">
+          <input type="text" name="rua" required>
+          <label>Validade</label>
+        </div>
+        <div class="user-box dados_bancarios">
+          <input type="number" name="rua" required>
+          <label>CVC</label>
+        </div>
+
+        <a class="button_dados_pessoais1">Proximo</a>
+        <a class="voltar">Voltar</a>
+        <button>Finalizar Cadastro</button>
       </form>
     </div>
-  
-   <!--
-  
-    <form action="/action_page.php">
-        
-       
-      
-      <input type="radio" name="sexo" class="dados_pessoais" value="Feminino" required>
-          <label for="Femino"></label>
-          <input type="radio" name="sexo" class="dados_pessoais" value="prefiro não dizer" required>
-          <label>Prefiro não dizer</label>
-          <input type="radio" name="sexo" class="dados_pessoais" value="outros" required>
-          <label>Outros</label>
-        
-      
-      
-      
-      
-     
-     
-      <label for="">Senha</label><br>
-      <input type="text" id="nome" name="senha" required>
-      <label for="">Confirme sua Senha</label><br>
-      <input type="text" id="nome" name="csenha" required>
-      
-    </form> 
-    -->
   </section>
   <img src="../../assets/cheerful-brunette-group-young-people-casual-clothes-working-modern-office.jpg" alt="">
   
