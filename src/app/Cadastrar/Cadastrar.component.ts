@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
-import { count } from 'rxjs';
+
 @Component({
   selector: 'app-Cadastrar',
   templateUrl: './Cadastrar.component.html',

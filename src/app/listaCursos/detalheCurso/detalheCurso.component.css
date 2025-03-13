@@ -1,0 +1,112 @@
+*{
+    padding-left: 1%;
+}
+h1{
+    margin-top: 10px;
+}
+main{
+    position: relative;
+    margin-bottom: 200px;
+}
+.top{
+    margin: 200px;
+    display: inline;
+}    
+.descricao{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: justify;
+    width: 45%;
+    font-size: 20px;
+   
+}
+img{
+    float: right;
+    margin-right: 40px;
+    width: 45%;
+    height: 390px;
+    border-radius: 20px;
+    margin-top: -400px;
+  
+}
+
+.matriz_curricular{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: -10px;
+    margin-bottom: 300px;
+    display: flex;
+
+}
+h2{
+    
+    width: 400px;
+    margin-left: 10px;
+}
+.info{
+    position: sticky;
+    width: 35%;
+    height: 30%;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: start ;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.103);
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: -340px;
+    top: 50px; /* altura que vai parar antes do topo */
+   
+}
+.materias{
+    display: inline;
+    width: 70%;
+    margin-top: 50px;
+
+   
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+    height: 40px;
+    padding-top: 9px;
+    background-color: #1212148c;
+  
+}
+.aulas_desafios{
+    position: relative;
+    font-style: normal;
+    left: 370px;
+    top: 10px;
+}
+
+.sub_info{
+    margin-top:20px;
+    margin-right: 100px;
+  
+}
+.sub_info p{
+    margin-top: -25px;
+    margin-left: 50px ; 
+    margin-bottom: 20px;
+}
+
+.divisor_hori{
+    position: relative;
+    width: 400px;
+    border: 1px solid white;
+    margin: 40px 0 10px 0;
+}
+.price{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+button{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 80px;
+}

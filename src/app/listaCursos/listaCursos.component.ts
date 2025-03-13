@@ -10,6 +10,7 @@ export class ListaCursosComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+   
   }
 
 }
