@@ -1,0 +1,73 @@
+main{
+  padding-bottom: 30px;
+
+}
+h1{
+  position: absolute;
+  margin-left: 150px;
+  padding-top: 300px;
+  font-size: 40px;
+}
+img,section{
+  margin-top: -279px;
+  height:35rem;
+  width: 60%;
+}
+img{
+  margin-left: 540px;
+}
+.login-box {
+  position: absolute;
+  top: 40%;
+  left: -16%;
+  width: 655px;
+  padding: 40px;
+
+}
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input{
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 45px;
+  margin-top: 30px;
+}
+
+.login-box .user-box label{
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  margin-top: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+
+}
+
+.login-box .user-box input:focus  ~ label,
+.login-box .user-box input:valid  ~ label{
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+button{
+  position: absolute;
+  margin-top: -10px;
+  left: 460px;
+  float: right;
+  width: 100px;
+}
