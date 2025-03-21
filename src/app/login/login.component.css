@@ -5,7 +5,7 @@ main{
 h1{
   position: absolute;
   margin-left: 150px;
-  padding-top: 300px;
+  padding-top: 190px;
   font-size: 40px;
 }
 img,section{
@@ -15,10 +15,11 @@ img,section{
 }
 img{
   margin-left: 540px;
+  margin-top: -301px;
 }
 .login-box {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: -16%;
   width: 655px;
   padding: 40px;
@@ -66,8 +67,30 @@ input[type=number] {
 }
 button{
   position: absolute;
-  margin-top: -10px;
+  margin-top: 35px;
   left: 460px;
   float: right;
   width: 100px;
 }
+
+.logo_menu{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 65px;
+  height: 120px;
+  width: 150px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+header a{
+  background-color: transparent;
+}
+.cadastrar{
+  position: absolute;
+  margin-top: 35px;
+  left: 330px;
+  float: right;
+  width: 120px;
+}
+
+

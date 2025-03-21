@@ -12,8 +12,8 @@ const routes: Routes = [
   {path:"listaCursos", component:ListaCursosComponent},
   {path:"listaCursos/detalheCurso", component:DetalheCursoComponent},
   {path:"", redirectTo:"home",pathMatch:"full"},
-  {path:'login',loadChildren: () => import('./login/login.module').then(m => m.LoginModule)}
-  
+  {path:'login',loadChildren: () => import('./login/login.module').then(m => m.LoginModule)},
+  { path: 'sobre', loadChildren: () => import('./sobre/sobre.module').then(m => m.SobreModule) }
 ];
 
 @NgModule({

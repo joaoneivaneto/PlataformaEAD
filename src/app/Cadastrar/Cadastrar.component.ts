@@ -9,19 +9,19 @@ import * as $ from 'jquery';
 export class CadastrarComponent implements OnInit {
 
   constructor() { }
-  
+
   ngOnInit() {
     this.ocultar();
     var count_click = 0;
-    
+
     const voltar_proximo = (page:number) =>  {
       $('.button_dados_pessoais1').show();
       $('.voltar').css({
         'margin-left': '-10px',
-        'margin-top': '-10px',
+        'margin-top': '-20px',
         'left': '480px',
         'background-color': 'blue'
-  
+
       });
       if(page == 0){
         this.ocultar()
@@ -34,7 +34,7 @@ export class CadastrarComponent implements OnInit {
         $('button_dados_pessoais1').show();
         $('.dados_pessoais_part2').show();
         $('.title_dados_pessoais').show();
-        $('.voltar').show();  
+        $('.voltar').show();
       }
       if(page == 2){
         this.ocultar();
@@ -54,14 +54,14 @@ export class CadastrarComponent implements OnInit {
         $('.voltar').show();
         $('button').show();
         $('button').css({
-          'margin-top':'40px',
+          'margin-top':'30px',
           'width':'130px',
           'left':'430px'
         });
         $('.voltar').css({
           'left':'410px',
-          'margin-top':'40px',
-    
+          'margin-top':'30px',
+
         });
       }
     }
@@ -71,14 +71,14 @@ export class CadastrarComponent implements OnInit {
     $('.button_dados_pessoais1').on('click',function(){
       count_click++;
       voltar_proximo(count_click);
-      
+
     })
     $('.voltar').on('click',function(){
       count_click--;
       voltar_proximo(count_click);
-      
+
     })
-    
+
 }
 ocultar(){
   $('.dados_pessoais_part2').hide();

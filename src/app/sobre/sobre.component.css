@@ -1,0 +1,9 @@
+main,header {
+  margin: 50px;
+}
+main {
+  display: flex;
+}
+article {
+  padding-left: 40px;
+}

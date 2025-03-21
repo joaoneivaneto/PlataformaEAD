@@ -7,9 +7,9 @@
 html{
     background-color:#050111;
     font-family: "inter", sans-serif ;
-    color: white; 
+    color: white;
     overflow-x: hidden;
- 
+
 }
 h1{
     font-size: 60px;
@@ -37,8 +37,8 @@ nav{
     height: 30px;
     margin-top:-8px;
     border: none;
-   
-    
+
+
 }
 .logo_menu{
     margin-top: -15px;
@@ -79,9 +79,9 @@ footer{
     margin-right: 40px;
 }
 .fa-brands{
-    color: #B197FC; 
+    color: #B197FC;
     font-size: 115px;
-    padding-left: 50px;   
+    padding-left: 50px;
 }
 .divisor{
     height: 85px;
@@ -105,7 +105,7 @@ footer{
 
 .cadastrar_login a:hover{
     background-color: rgba(255, 0, 0, 0.644);
-    
+
 }
 input{
     color: #fff;
