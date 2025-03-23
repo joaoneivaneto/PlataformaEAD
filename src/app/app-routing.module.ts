@@ -13,7 +13,8 @@ const routes: Routes = [
   {path:"listaCursos/detalheCurso", component:DetalheCursoComponent},
   {path:"", redirectTo:"home",pathMatch:"full"},
   {path:'login',loadChildren: () => import('./login/login.module').then(m => m.LoginModule)},
-  { path: 'sobre', loadChildren: () => import('./sobre/sobre.module').then(m => m.SobreModule) }
+  { path: 'sobre', loadChildren: () => import('./sobre/sobre.module').then(m => m.SobreModule) },
+  { path: 'faleConosco', loadChildren: () => import('./fale-conosco/fale-conosco.module').then(m => m.FaleConoscoModule) }
 ];
 
 @NgModule({

@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
         if (event.url == '/home' || event.url == '/') {this.rotaAtual = event.url;}
         else if(event.url == '/listaCursos'){this.rotaAtual = event.url;}
         else if(event.url == '/sobre'){this.rotaAtual = event.url;}
+        else if(event.url == '/faleConosco'){this.rotaAtual = event.url;}
         else {this.rotaAtual = '';}
 
       }
