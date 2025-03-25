@@ -14,7 +14,9 @@ const routes: Routes = [
   {path:"", redirectTo:"home",pathMatch:"full"},
   {path:'login',loadChildren: () => import('./login/login.module').then(m => m.LoginModule)},
   { path: 'sobre', loadChildren: () => import('./sobre/sobre.module').then(m => m.SobreModule) },
-  { path: 'faleConosco', loadChildren: () => import('./fale-conosco/fale-conosco.module').then(m => m.FaleConoscoModule) }
+  { path: 'faleConosco', loadChildren: () => import('./fale-conosco/fale-conosco.module').then(m => m.FaleConoscoModule) },
+  { path: 'paginaUsuario', loadChildren: () => import('./pagina-usuario/pagina-usuario.module').then(m => m.PaginaUsuarioModule) },
+  { path: 'videosCurso', loadChildren: () => import('./videos-curso/videos-curso.module').then(m => m.VideosCursoModule) },
 ];
 
 @NgModule({

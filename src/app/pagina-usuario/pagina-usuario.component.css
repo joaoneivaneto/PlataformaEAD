@@ -1,0 +1,79 @@
+.fa-solid{
+  font-size: 2rem;
+  margin-top: -10px;
+}
+a{
+  background: transparent;
+  text-decoration: none;
+}
+nav{
+  list-style-type: none;
+   background-color: #0f081d;
+   width: 100%;
+   padding: 2rem 2.2rem 2rem 0.5rem;
+}
+.dados_conta,.out{
+  float: right;
+}
+.out{
+  margin-right: 1rem;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem auto;
+}
+
+
+main a{
+  position: relative;
+  display: block;
+  background-color:  rgba(84, 182, 141, 0.404);
+  width: 81rem;
+  height: 3rem;
+  border-radius: 1rem;
+  margin-left: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem ;
+}
+
+section *{
+  display: inline;
+  margin-left:  -0.6rem;
+  margin-top: -0.8rem;
+  margin-right: 2rem;
+}
+
+main img{
+  width: 4rem;
+  height: 3rem;
+  border-radius:  1rem 0 0 1rem ;
+  margin-top: -0.8rem;
+  margin-left: -0.8rem;
+
+}
+section{
+  margin-left: 10rem;
+  margin-top: -2.3rem;
+  width: 80rem;
+}
+section p{
+  margin-left: 1rem;
+}
+p i{
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+}
+.fa-solid{
+  font-size: 1.5rem;
+}
+
+.fa-regular fa-arrow-progress{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+

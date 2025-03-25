@@ -21,7 +21,7 @@ img,section{
 img{
     margin-left: 540px;
 }
-.login-box {
+.cadastro-box{
     position: absolute;
     top: 40%;
     left: -16%;
@@ -29,17 +29,17 @@ img{
     padding: 40px;
 
   }
-  .login-box .user-box {
+  .cadastro-box .user-box {
     position: relative;
   }
 
-  .login-box .user-box input{
+  .cadastro-box .user-box input{
     width: 100%;
     padding: 10px 0;
     margin-bottom: 45px;
   }
 
-.login-box .user-box label{
+.cadastro-box .user-box label{
     position: absolute;
     top:0;
     left: 0;
@@ -60,8 +60,8 @@ input[type=number] {
 
 }
 
-.login-box .user-box input:focus  ~ label,
-.login-box .user-box input:valid  ~ label{
+.cadastro-box .user-box input:focus  ~ label,
+.cadastro-box .user-box input:valid  ~ label{
     top: -20px;
     left: 0;
     color: #03e9f4;
@@ -79,4 +79,5 @@ button,a{
 .dados_bancarios{
   top: 50px;
 }
+
 

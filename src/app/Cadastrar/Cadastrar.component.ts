@@ -35,6 +35,7 @@ export class CadastrarComponent implements OnInit {
         $('.dados_pessoais_part2').show();
         $('.title_dados_pessoais').show();
         $('.voltar').show();
+
       }
       if(page == 2){
         this.ocultar();

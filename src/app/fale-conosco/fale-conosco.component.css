@@ -17,7 +17,7 @@ img{
   margin-left: 540px;
   margin-top: -279px;
 }
-.login-box {
+.form-box {
   position: absolute;
   top: 35%;
   left: -16%;
@@ -25,11 +25,11 @@ img{
   padding: 40px;
 
 }
-.login-box .user-box {
+.form-box .user-box {
   position: relative;
 }
 
-.login-box .user-box input, textarea{
+.form-box .user-box input, textarea{
   width: 100%;
   border: solid 2px white;
   border-radius: 5px;
@@ -46,7 +46,7 @@ textarea:focus{
   border: solid 2px blue;
 }
 
-.login-box .user-box label{
+.form-box .user-box label{
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
