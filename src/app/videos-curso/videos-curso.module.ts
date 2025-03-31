@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { VideosCursoRoutingModule } from './videos-curso-routing.module';
 import { VideosCursoComponent } from './videos-curso.component';
+import {HeaderlogadoModule} from "../headerlogado/headerlogado.module";
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { VideosCursoComponent } from './videos-curso.component';
   ],
   imports: [
     CommonModule,
-    VideosCursoRoutingModule
+    VideosCursoRoutingModule,
+    HeaderlogadoModule
   ]
 })
 export class VideosCursoModule { }

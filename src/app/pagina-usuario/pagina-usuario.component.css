@@ -12,13 +12,7 @@ nav{
    width: 100%;
    padding: 2rem 2.2rem 2rem 0.5rem;
 }
-.dados_conta,.out{
-  float: right;
-}
-.out{
-  margin-right: 1rem;
-  color: white;
-}
+
 
 h1{
   text-align: center;
