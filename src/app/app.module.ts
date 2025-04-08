@@ -7,6 +7,7 @@ import { PaginaIncialComponent } from './PaginaIncial/PaginaIncial.component';
 import { CadastrarComponent } from './Cadastrar/Cadastrar.component';
 import { ListaCursosComponent } from './listaCursos/listaCursos.component';
 import { DetalheCursoComponent } from './listaCursos/detalheCurso/detalheCurso.component';
+import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 
 @NgModule({
   declarations: [				
@@ -14,7 +15,8 @@ import { DetalheCursoComponent } from './listaCursos/detalheCurso/detalheCurso.c
       PaginaIncialComponent,
       CadastrarComponent,
       ListaCursosComponent,
-      DetalheCursoComponent
+      DetalheCursoComponent,
+      NaoEncontradaComponent
    ],
   imports: [
     BrowserModule,

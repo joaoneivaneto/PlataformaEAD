@@ -4,6 +4,7 @@ import { CadastrarComponent } from './Cadastrar/Cadastrar.component';
 import { PaginaIncialComponent } from './PaginaIncial/PaginaIncial.component';
 import { ListaCursosComponent } from './listaCursos/listaCursos.component';
 import { DetalheCursoComponent } from './listaCursos/detalheCurso/detalheCurso.component';
+import {NaoEncontradaComponent} from "./nao-encontrada/nao-encontrada.component";
 
 
 const routes: Routes = [
@@ -18,6 +19,8 @@ const routes: Routes = [
   { path: 'paginaUsuario', loadChildren: () => import('./pagina-usuario/pagina-usuario.module').then(m => m.PaginaUsuarioModule) },
   { path: 'videosCurso', loadChildren: () => import('./videos-curso/videos-curso.module').then(m => m.VideosCursoModule) },
   { path: 'headerLogado', loadChildren: () => import('./headerlogado/headerlogado.module').then(m => m.HeaderlogadoModule) },
+  { path: 'detalhesUsuario', loadChildren: () => import('./detalhes-usuario/detalhes-usuario.module').then(m => m.DetalhesUsuarioModule) },
+  {path:'**', component:NaoEncontradaComponent}
 ];
 
 @NgModule({
