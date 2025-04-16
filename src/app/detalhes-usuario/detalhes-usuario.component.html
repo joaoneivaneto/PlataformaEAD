@@ -1,0 +1,194 @@
+<app-headerlogado></app-headerlogado>
+<header>
+  <h1> Dados de Conta</h1>
+
+</header>
+<main>
+  <header class="dados_pessoais">
+    <h2>Dados Pessoais</h2>
+    <a class="modalDadosPessoais"><i class="fa-solid fa-pen-to-square"></i></a>
+  </header>
+  <section class="container">
+    <section class="box">
+      <label>Nome:</label>
+      <p>nome do usuario</p>
+    </section>
+    <section class="box">
+      <label>Sobremome:</label>
+      <p>Sobrenome do usuario</p>
+    </section>
+    <section class="box">
+      <label>E-mail:</label>
+      <p>Email do usuario</p>
+    </section>
+    <section class="box container_curto">
+      <label>Telefone:</label>
+      <p>Telefone do usuario</p>
+    </section>
+    <section class="box container_nano">
+      <label>Sexo</label>
+      <p>S</p>
+    </section>
+    <section class="box  container_curto">
+      <label>CPF</label>
+      <p>CPF do usuario</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Data de Nascimento</label>
+      <p>data de nascimento</p>
+    </section>
+
+  </section>
+  <header class="dados_pessoais">
+    <h2>Endereço</h2>
+    <a class="modalEndereco"><i class="fa-solid fa-pen-to-square"></i></a>
+  </header>
+  <section class="container">
+    <section class="box  container_curto">
+      <label>CEP:</label>
+      <p>Cep do usuario</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Cidade:</label>
+      <p>Cidade do usuario</p>
+    </section>
+    <section class="box container_nano">
+      <label>UF:</label>
+      <p>UF</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Bairro:</label>
+      <p>Bairro do usuario</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Rua:</label>
+      <p>Rua do usuario</p>
+    </section>
+    <section class="box container_curto">
+      <label>Numero</label>
+      <p>Numero</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Complemento</label>
+      <p>Complemento</p>
+    </section>
+  </section>
+
+  <header class="dados_pessoais">
+    <h2>Dados Bancarios</h2>
+    <a class="modalBancarios"><i class="fa-solid fa-pen-to-square"></i></a>
+  </header>
+  <section class="container">
+    <section class="box">
+      <label>Titular:</label>
+      <p>Nome do Titular</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Numero do cartão:</label>
+      <p>fmero do cartão</p>
+    </section>
+    <section class="box  container_curto">
+      <label>Val:</label>
+      <p>Validade</p>
+    </section>
+    <section class="box validade">
+      <label>CVV:</label>
+      <p>CVV</p>
+    </section>
+  </section>
+
+  <div id="modal_dados-pessoais" class="modal">
+
+    <!-- Modal content -->
+    <div id="modal-dados-pessoais" class="modal_content">
+      <i class="fa-solid fa-xmark close"></i>
+
+
+      <h2>Editar Dados Pessoais</h2>
+      <section class="box_edit">
+        <label>E-mail:</label>
+        <input name="email">
+      </section>
+      <section class="box_edit">
+        <label>Telefone:</label>
+        <input name="email">
+      </section>
+
+    </div>
+
+
+  </div>
+
+  <div id="modal_endereco" class="modal">
+
+    <!-- Modal content -->
+    <div id="modal_endereco" class="modal_content">
+      <i class="fa-solid fa-xmark close"></i>
+
+
+      <h2>Editar Dados de endereço</h2>
+      <section class="box_edit">
+        <label>CEP:</label>
+        <input name="cep">
+      </section>
+      <section class="box_edit">
+        <label>UF:</label>
+        <input name="uf">
+      </section>
+      <section class="box_edit">
+        <label>Cidade:</label>
+        <input name="cidade">
+      </section>
+      <section class="box_edit">
+        <label>Bairro:</label>
+        <input name="bairro">
+      </section>
+      <section class="box_edit">
+        <label>Rua:</label>
+        <input name="rua">
+      </section>
+      <section class="box_edit">
+        <label>Número:</label>
+        <input name="numero">
+      </section>
+      <section class="box_edit">
+        <label>Complemento:</label>
+        <input name="complemento">
+      </section>
+
+
+    </div>
+
+
+  </div>
+  <div id="modal_bancarios" class="modal">
+
+    <!-- Modal content -->
+    <div id="modal-bancarios" class="modal_content">
+      <i class="fa-solid fa-xmark close"></i>
+
+
+      <h2>Editar Dados Bancarios</h2>
+      <section class="box_edit">
+        <label>Nome do Titular:</label>
+        <input name="titular">
+      </section>
+      <section class="box_edit">
+        <label>Numero do cartão:</label>
+        <input name="numero_cartão">
+      </section>
+      <section class="box_edit">
+        <label>Validade:</label>
+        <input name="validade">
+      </section>
+      <section class="box_edit">
+        <label>CVV:</label>
+        <input name="cvv">
+      </section>
+
+
+    </div>
+
+
+  </div>
+</main>
