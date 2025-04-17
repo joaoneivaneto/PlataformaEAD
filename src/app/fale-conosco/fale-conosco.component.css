@@ -1,0 +1,48 @@
+
+main{
+  display: inline-block;
+  padding-bottom: 30px;
+
+}
+h1{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 3rem;
+  font-size: 40px;
+}
+#container{
+  margin-top: 22.7rem;
+  width: 84.5rem;
+}
+h2{
+  position: absolute ;
+  margin:-13rem 0 0 3rem;
+}
+img,section{
+  margin-top:-22.7rem;
+  height:100%;
+  width: 60%;
+}
+img{
+ float: right;
+}
+
+.entre-contato{
+  position: absolute;
+  margin: -10rem 0 0 2rem;
+  width: 30rem;
+  border: 4px solid white;
+  height: 20rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.entre-contato a{
+  background: transparent;
+  margin-left: 0.1rem;
+  text-decoration: underline;
+}
+
+p{
+  margin-bottom: 1rem;
+}
